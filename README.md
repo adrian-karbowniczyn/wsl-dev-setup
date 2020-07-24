@@ -159,3 +159,20 @@ My favorite [Monokai Pro (Filter Octagon)](https://monokai.pro/vscode) in my opi
 | [TabNine](https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-quick-select)                                	| Machine learning to help you write code faster 	|
 
 
+## [Vim](https://www.vim.org/)
+Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient.
+
+![Vim screenshoot](Vim-image.jpg)
+### Plugins
+| Plugin                                                                 	| Description                                          	|
+|------------------------------------------------------------------------	|------------------------------------------------------	|
+| [Vim-plug](https://github.com/junegunn/vim-plug)                       	| Minimalistic Vim plugin manager                      	|
+| [Fzf](https://github.com/junegunn/fzf.vim)                             	| Command-line fuzzy finder                            	|
+| [NERDTree](https://github.com/preservim/nerdtree)                      	| File system explorer for the Vim                     	|
+| [Lightline](https://github.com/itchyny/lightline.vim)                  	| Configurable statusline/tabline                      	|
+| [Polyglot](https://github.com/sheerun/vim-polyglot)                    	| A collection of language packs for Vim               	|
+| [Rainbow Parentheses Improved](https://github.com/luochen1990/rainbow) 	| Diff level of parentheses in diff color              	|
+| [LiveDown](https://github.com/shime/livedown)       	                    | Instant preview of markdown files                    	|
+| [Emmet](https://github.com/mattn/emmet-vim)                            	| Support for expanding abbreviations similar to emmet 	|
+| [Gitgutter](https://github.com/airblade/vim-gitgutter)                 	| Shows a git diff in the sign column                  	|
+| [Tabnine](https://www.tabnine.com/)                                    	| Deep learning to help you write code faster          	|
