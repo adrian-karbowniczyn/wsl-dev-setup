@@ -1,0 +1,35 @@
+[user]
+    name = Adrian Karbowniczyn
+    email = adrian.karbowniczyn@gmail.com
+[core]
+	autocrlf = input
+	editor = vim
+[mergetool]
+    prompt = false
+    keepBackup = false
+    keepTemporaries = false
+
+[merge]
+    tool = winmerge
+
+[mergetool "winmerge"]
+    name = WinMerge
+    trustExitCode = true
+    cmd = "/mnt/c/Program\\ Files/WinMerge/WinMergeU.exe" -u -e -fm -wl -dl "Local" -wr -dr "Remote" $(wslpath -aw $LOCAL) $(wslpath -aw $MERGED) $(wslpath -aw $REMOTE)
+
+[diff]
+    tool = winmerge
+
+[difftool "winmerge"]
+    name = WinMerge
+    trustExitCode = true
+    cmd = "/mnt/c/Program\\ Files/WinMerge/WinMergeU.exe" -u -e  $(wslpath -aw $LOCAL) $(wslpath -aw $REMOTE)
+
+[push]
+    default = upstream
+    followTags = true
+
+[alias]
+	stl = !git status && git log -n1
+	ignored = !git ls-files -v | grep "^[[:lower:]]"
+	goto = "f() {git reset --hard && git clean -fd  && git checkout $1; };f" 
