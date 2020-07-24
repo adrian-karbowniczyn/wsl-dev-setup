@@ -333,3 +333,11 @@ Windows Terminal is a new, modern, feature-rich, productive terminal application
   "yellow": "#FFB86C"
 }
 ```
+
+
+## Other Software
+
+* [Postman](https://www.postman.com/)
+* [Docker](https://www.docker.com/)
+* [ShareX](https://getsharex.com/)
+* [Windows PowerToys](https://github.com/microsoft/PowerToys)
