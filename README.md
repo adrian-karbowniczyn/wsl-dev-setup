@@ -341,3 +341,14 @@ Windows Terminal is a new, modern, feature-rich, productive terminal application
 * [Docker](https://www.docker.com/)
 * [ShareX](https://getsharex.com/)
 * [Windows PowerToys](https://github.com/microsoft/PowerToys)
+
+
+## Reference
+* [Windows Subsystem for Linux](https://docs.microsoft.com/pl-pl/windows/wsl/install-win10?redirectedfrom=MSDN)
+* [WSL2](https://docs.microsoft.com/pl-pl/windows/wsl/wsl2-index)
+* [What is ZSH](https://www.howtogeek.com/362409/what-is-zsh-and-why-should-you-use-it-instead-of-bash/)
+* [Windows Terminal 1.0](https://devblogs.microsoft.com/commandline/windows-terminal-1-0/)
+* [Vim configuration](https://www.linode.com/docs/tools-reference/tools/introduction-to-vim-customization/)
+* [VSCode Prettier and Eslint work together](https://dev.to/chgldev/getting-prettier-eslint-and-vscode-to-work-together-3678)
+* [Git common commands](http://guides.beanstalkapp.com/version-control/common-git-commands.html)
+
