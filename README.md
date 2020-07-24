@@ -205,3 +205,66 @@ alias ccat="pygmentize -O style=monokai -g"
 | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)   | Syntax highlighting for the shell zsh                                 |
 | [fzf](https://github.com/junegunn/fzf)                                            | General-purpose command-line fuzzy finder                             |
 | [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)           | It suggests commands as you type based on history and completions     |
+
+## [Git](https://git-scm.com/)
+
+### How to use WinMerge as a diff/merge tool in WSL2
+
+Copy and pase to .gitconfig file:
+```bash
+[mergetool]
+prompt = false
+keepBackup = false
+keepTemporaries = false
+
+[merge]
+tool = winmerge
+
+[mergetool "winmerge"]
+name = WinMerge
+trustExitCode = true
+cmd = "/mnt/c/Program\\ Files/WinMerge/WinMergeU.exe" -u -e -fm -wl -dl "Local" -wr -dr "Remote" $(wslpath -aw $LOCAL) $(wslpath -aw $MERGED) $(wslpath -aw $REMOTE)
+
+[diff]
+tool = winmerge
+
+[difftool "winmerge"]
+name = WinMerge
+trustExitCode = true
+cmd = "/mnt/c/Program\\ Files/WinMerge/WinMergeU.exe" -u -e  $(wslpath -aw $LOCAL) $(wslpath -aw $REMOTE)
+
+```
+
+### AHK  aliases
+A lot of useful aliases that makes working with git a little bit faster 🔥
+
+```bash
+; **git-specific
+
+::gstl::git stash list
+::gfp::git fetch --prune --prune-tags
+::grso::git remote show origin
+::glo::git log --oneline --graph
+::glop::git log --graph --pretty=format:'%Cred%h%Creset %w(72,1,2)%s -%C(yellow)%d%Creset %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+::glcp::git log -S  --format=%h | clip{left 19}
+::gm::git merge
+::gs::git status
+::gl::git ll
+::gd::git diff --word-diff
+::gdt::git difftool
+::gmt::git mergetool
+::gc::git commit
+::gcae::git commit --allow-empty
+::gch::git checkout
+::gr::git rebase -i
+::gb::git branch
+::gst::git stash
+::ga::git add -p
+::gai::git add -i
+::gf::git fetch
+::gph::git push
+::gignore::git update-index --assume-unchanged
+::gunignore::git update-index --no-assume-unchanged
+::gmnff::git merge --no-ff -e -m "" -
+::-h::--help
+```
