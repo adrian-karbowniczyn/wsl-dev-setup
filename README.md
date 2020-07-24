@@ -268,3 +268,17 @@ A lot of useful aliases that makes working with git a little bit faster 🔥
 ::gmnff::git merge --no-ff -e -m "" -
 ::-h::--help
 ```
+## [Google chrome](https://www.google.com/intl/pl_pl/chrome/)
+I use google chrome for general purpose, when working with css switch to the [**Firefox**](https://www.mozilla.org/pl/firefox/new/)
+### Extensions
+| Extension                                                                                                                                     | Description                                                       |
+|--------------------------------------------------------------------------------------------------------------------------------------------   |----------------------------------------------------------------   |
+| [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en)                                     | A utility that uncovers the technologies used on websites         |
+| [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm/related?hl=en)                                 | Identify fonts on web pages                                       |
+| [Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf?hl=en-GB)                          | Checker that crawls through webpage and looks for broken links    |
+| [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc/related?hl=en)                                 | Validate and view JSON documents                                  |
+| [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)                     | React debugging tools to the Chrome                               |
+| [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)                                  | Extension for debugging Vue.js applications                       |
+| [Material DevTools Theme Collection](https://chrome.google.com/webstore/detail/material-devtools-theme-c/jmefikbdhgocdjeejjnnepgnfkkbpgjo)    | Material DevTools Theme Collection                                |
+| [ChromeVox Classic ](https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn)                    | Screen reader; **ALT+SHIFT+AA TO TOGGLE ON/OFF**                  |
+| [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh)                                   | Resize the browser window                                         |
