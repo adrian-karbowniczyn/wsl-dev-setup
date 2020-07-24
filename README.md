@@ -41,3 +41,24 @@ wsl --set-version Ubuntu-18.04 2
 wsl -l -v
 ```
 6. Any problems? checkout: https://docs.microsoft.com/en-us/windows/wsl/about
+
+## My configs
+A bash script for automated 🤖  installation of **[ZSH](#zsh)**, **[VIM](#vim)**, **[GIT](#git)**, **[WINDOWS TERMINAL](#windows-terminal)** configs.
+
+1. Make sure you are in home directory and clone this repo
+```
+git clone https://github.com/adrian-karbowniczyn/wsl-config.git configs
+```
+2. Go into cloned folder
+```
+cd configs
+```
+3. Make script setup executable
+```
+chmod +x setup.sh
+```
+4. Run
+```
+./setup.sh
+```
+5. Follow instructions and enjoy 🔥
