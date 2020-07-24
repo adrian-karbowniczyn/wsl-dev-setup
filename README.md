@@ -282,3 +282,54 @@ I use google chrome for general purpose, when working with css switch to the [**
 | [Material DevTools Theme Collection](https://chrome.google.com/webstore/detail/material-devtools-theme-c/jmefikbdhgocdjeejjnnepgnfkkbpgjo)    | Material DevTools Theme Collection                                |
 | [ChromeVox Classic ](https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn)                    | Screen reader; **ALT+SHIFT+AA TO TOGGLE ON/OFF**                  |
 | [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh)                                   | Resize the browser window                                         |
+
+
+## [Windows Terminal](https://github.com/microsoft/terminal)
+Windows Terminal is a new, modern, feature-rich, productive terminal application for command-line users.
+
+![Windows Terminal screenshoot.](WindowsTerminal-image.jpg)
+### Ubuntu profile
+```json
+{
+  "name": "Ubuntu",
+  "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+  "source": "Windows.Terminal.Wsl",
+  "hidden": false,
+  "tabTitle": "Ubuntu",
+  "suppressApplicationTitle": true,
+  "fontFace": "Hack",
+  "fontSize": 12,
+  "useAcrylic": false,
+  "colorScheme": "Dracula",
+  "cursorShape": "filledBox",
+  "cursorColor": "#ee4d02",
+  "padding": "15, 15, 15, 15",
+  "snapOnInput": true,
+  "icon": "C:/Users/user/ubuntu-ico.ico",
+  "startingDirectory": "//wsl$/Ubuntu-18.04/home/user/"
+}
+```
+### Color scheme
+```json
+{
+  "name": "Dracula",
+  "background": "#272935",
+  "black": "#272935",
+  "blue": "#BD93F9",
+  "brightBlack": "#555555",
+  "brightBlue": "#BD93F9",
+  "brightCyan": "#8BE9FD",
+  "brightGreen": "#50FA7B",
+  "brightPurple": "#FF79C6",
+  "brightRed": "#FF5555",
+  "brightWhite": "#FFFFFF",
+  "brightYellow": "#F1FA8C",
+  "cyan": "#6272A4",
+  "foreground": "#F8F8F2",
+  "green": "#50FA7B",
+  "purple": "#6272A4",
+  "red": "#FF5555",
+  "white": "#F8F8F2",
+  "yellow": "#FFB86C"
+}
+```
