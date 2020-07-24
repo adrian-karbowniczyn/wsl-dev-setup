@@ -176,3 +176,32 @@ Vim is a highly configurable text editor built to make creating and changing any
 | [Emmet](https://github.com/mattn/emmet-vim)                            	| Support for expanding abbreviations similar to emmet 	|
 | [Gitgutter](https://github.com/airblade/vim-gitgutter)                 	| Shows a git diff in the sign column                  	|
 | [Tabnine](https://www.tabnine.com/)                                    	| Deep learning to help you write code faster          	|
+
+
+## ZSH
+Z shell, is an extended version of the Bourne Shell (sh), with plenty of new features, and support for plugins and theme.
+
+
+### Framework
+[Oh My ZSH!](https://ohmyz.sh/)
+
+### Theme
+[spaceship](https://github.com/denysdovhan/spaceship-prompt)
+
+### Aliases
+
+```bash
+alias gitk="gitk.exe"
+alias gitgui="git-gui.exe"
+alias clip="clip.exe"
+alias explore="explorer.exe ."
+alias ccat="pygmentize -O style=monokai -g"
+```
+
+### Plugins
+| Plugin                                                                            | Description                                                           |
+|---------------------------------------------------------------------------------  |-------------------------------------------------------------------    |
+| [zsh-z](https://github.com/agkozak/zsh-z)                                         | Jump quickly to directories that you have visited frequently          |
+| [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)   | Syntax highlighting for the shell zsh                                 |
+| [fzf](https://github.com/junegunn/fzf)                                            | General-purpose command-line fuzzy finder                             |
+| [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)           | It suggests commands as you type based on history and completions     |
