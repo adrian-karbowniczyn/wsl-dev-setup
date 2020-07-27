@@ -77,7 +77,7 @@ au FileType gitcommit setlocal tw=72
 "--------------------------------------------------------------
 
 set tabstop=4                       " A tab is four spaces
-set shiftwidth=4                    " Number of spaces to use for autoindenting
+set shiftwidth=2                    " Number of spaces to use for autoindenting
 set expandtab                       " Always set autoindenting on
 set autoindent                      " Always set autoindenting on
 
