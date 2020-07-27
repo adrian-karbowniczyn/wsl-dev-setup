@@ -1,14 +1,14 @@
-"-------------------------------------------------------------- 
+"--------------------------------------------------------------
 "
 " *  Vim configuration for Web development
 " *  Adrian Karbowniczyn (s1amber)
 " => Fork me on Github https://github.com/adrian-karbowniczyn/
 "
-"--------------------------------------------------------------                                                                                                 
+"--------------------------------------------------------------
 
 
 "--------------------------------------------------------------
-" => Plugins 
+" => Plugins
 "--------------------------------------------------------------
 
 call plug#begin('~/.vim/plugged')
@@ -34,11 +34,11 @@ let g:lightline = {
       \ 'colorscheme': 'one',
       \ }
 
-" Rainbow 
-let g:rainbow_active = 1 
+" Rainbow
+let g:rainbow_active = 1
 
 "--------------------------------------------------------------
-" => Colors 
+" => Colors
 "--------------------------------------------------------------
 
 set termguicolors
@@ -46,7 +46,7 @@ colorscheme dracula                 " Theme
 syntax on                           " Syntax highlight
 
 "--------------------------------------------------------------
-" => General 
+" => General
 "--------------------------------------------------------------
 
 set nocompatible                    " Not compatible with the old-fashion vi mode
@@ -54,16 +54,16 @@ set history=50                      " Keep 50 lines of command line history
 set ruler                           " Show the cursor position all the time
 set autoread                        " Auto read when file is changed from outside
 set number                          " Always show line numbers
-set hlsearch                        " Search highlighting  
+set hlsearch                        " Search highlighting
 set incsearch                       " Show search matches as you type
 set wildmode=longest,list,full      " Show a list when pressing tab and complete
 set showmatch                       " Cursor shows matching ) and }
 set smarttab                        " Insert tabs on the start of a line according to context
 
-set nobackup                        " Do not keep backup files, 
-set noswapfile                      " Do not write swap files 
+set nobackup                        " Do not keep backup files,
+set noswapfile                      " Do not write swap files
 
-filetype on                         " Enable filetype detection        
+filetype on                         " Enable filetype detection
 filetype plugin on                  " Enable filetype-specific plugins
 filetype indent on                  " Enable filetype-specific indenting
 
@@ -89,4 +89,4 @@ set autoindent                      " Always set autoindenting on
 map <F2> :NERDTreeToggle<CR>
 
 " Fix indent
-map <F7> gg=G<C-o><C-o> 
+map <F7> gg=G<C-o><C-o>
