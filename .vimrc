@@ -70,6 +70,8 @@ filetype indent on                  " Enable filetype-specific indenting
 " Auto reload vimrc when editing it
 autocmd! bufwritepost .vimrc source ~/.vimrc
 
+" Commit max length = 72
+au FileType gitcommit setlocal tw=72
 "--------------------------------------------------------------
 " => Indentation
 "--------------------------------------------------------------
